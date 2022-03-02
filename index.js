@@ -4,7 +4,6 @@ let audio = new Audio('Alarm-clock-bell.mp3');
 // audio.play();
 let stop = document.getElementById('Stop');
 stop.addEventListener('click', stoping);
-
 function stoping(){
     setInterval(() => {
         audio.pause()
