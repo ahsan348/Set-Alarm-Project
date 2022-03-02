@@ -32,10 +32,10 @@ function alaram(e){
     let alarmtime = setalarm-Now;
 
     if (alarmtime >= 0){
-        setInterval(() => {
+        // setInterval(() => {
             // console.log('alarm')
                 ringing()       
-        },3000);     
+        // },3000);     
     }
  
 }
