@@ -33,9 +33,9 @@ function alaram(e){
 
     if (alarmtime >= 0){
         setInterval(() => {
-            console.log('alarm')
+            // console.log('alarm')
                 ringing()       
-        },alarmtime);     
+        },3000);     
     }
  
 }
