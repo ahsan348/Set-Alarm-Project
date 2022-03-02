@@ -6,7 +6,10 @@ let stop = document.getElementById('Stop');
 stop.addEventListener('click', stoping);
 
 function stoping(){
-     audio.pause()
+    setInterval(() => {
+        audio.pause()
+        
+    }, stoping);
      console.log('stop')
     };
 function ringing() {
